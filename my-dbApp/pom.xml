@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-	<!-- itt a java version egész szám legyen!!! hiába van 15.0.1 -->
+	<!-- itt a java version/source/target egész szám legyen!!! hiába van 15.0.1 -->
 		<maven.compiler.source>15</maven.compiler.source>
 		<maven.compiler.target>15</maven.compiler.target>
  		<java.version>15</java.version>
