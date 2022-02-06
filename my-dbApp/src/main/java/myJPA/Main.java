@@ -9,7 +9,7 @@ public class Main {
 		
 		UserDao userDao = new UserDao();
 		
-		User user = userDao.getUserBId(1L);
+		User user = userDao.getUserBId(3L);
 		//User user2 = userDao.getUserBName("Gipsz Jakab");
 		
 		System.out.println(user);
