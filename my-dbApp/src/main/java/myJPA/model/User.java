@@ -12,7 +12,17 @@ public class User {
 	private long id;//ez viszont ugyanaz legyen mint a database oszlop neve
 	
 	private String username;//ez viszont ugyanaz legyen mint a database oszlop neve
+	/*
+	private String number;
 	
+	public String getNumber() {
+		return number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+	*/
 	public long getId() {
 		return id;
 	}

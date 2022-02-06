@@ -21,6 +21,10 @@ public class UserDao {
 		EntityManager entityManager = emf.createEntityManager();
 		return entityManager.find(User.class, id);
 	}
-
-
+/*
+	public User getUserBName(String name) {
+		EntityManager entityManager = emf.createEntityManager();
+		return entityManager.find(User.class, number);
+	}
+	*/
 }
